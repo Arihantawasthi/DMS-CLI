@@ -1,20 +1,27 @@
 {
   "name": "dms-cli",
   "version": "1.0.0",
-  "description": "A CLI for dms",
+  "description": "A CLI for DMS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "dms",
+    "Academic Management System",
+    "api",
     "muj",
-    "arihant",
-    "ashish",
-    "piyush"
+    "manipal",
+    "Arihant Awasthi",
+    "Ashish Kumar",
+    "Piyush Raj"
+    "0x48piraj"
   ],
+  "bin": {
+    "dms": "./index.js"
+  },
   "author": "Arihant, Piyush and Ashish",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
     "colors": "^1.3.2",
